@@ -83,7 +83,7 @@ p.lead {
 }
 
 #sideNav {
-  background: url("../img/aside-3.jpg") no-repeat center center/cover;
+  background: url("../img/aside-m.png") no-repeat center center/cover;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -402,14 +402,26 @@ section.resume-section h2 {
 }
 
 #experience .timeline .timeline-heading {
+  height: 2rem;
   line-height: 2rem;
   margin-bottom: 0.5rem;
 }
 
+@media (max-width: 768px) {
+  #experience .timeline .timeline-heading {
+    height: 4rem;
+  }
+}
+
 #experience .timeline .timeline-heading .timeline-title {
-  float: left;
   font-size: 1.6rem;
   font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  #experience .timeline .timeline-heading .timeline-title {
+    float: left;
+  }
 }
 
 #experience .timeline .timeline-heading .proj-preview {
