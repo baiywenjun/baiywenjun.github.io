@@ -263,6 +263,10 @@ section.resume-section h2 {
   margin-left: 10px;
 }
 
+#about .my-info div .my-mail {
+  color: #495057;
+}
+
 #skills ul.dev-icons {
   display: -webkit-box;
   display: -ms-flexbox;
