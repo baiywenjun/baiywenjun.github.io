@@ -418,13 +418,14 @@ section.resume-section h2 {
 }
 
 #experience .timeline .timeline-heading .timeline-title {
-  font-size: 1.6rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 
 @media (min-width: 768px) {
   #experience .timeline .timeline-heading .timeline-title {
     float: left;
+    font-size: 1.6rem;
   }
 }
 
